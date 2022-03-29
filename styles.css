@@ -39,3 +39,17 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+@media only screen and (max-width: 640px){
+h1 {
+  font-size: 5rem;
+
+}
+.container h1{
+  text-align: center;
+}
+}
+@media only screen and (max-width: 460px){
+  .container h1{
+    font-size: 3rem;
+  }
+}
